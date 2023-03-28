@@ -13,5 +13,6 @@ const { products} = useSelector(rootReducer => rootReducer.cartReducer )
 // para o objeto iremos associa-lo ao componente que devemos mudar o estado 
 // ultilizaremos a função map , para cada item adcionado 
 
-
+<Outrocomponent>
 { products.map (product => <component id={product})}
+<Outrocomponent/>
