@@ -48,6 +48,15 @@ catch (err) {
     </Button>
 
 
-// praticando o useffect 
+// praticando o useffect  (front)
 
-() useffect
+
+// api = axios ? 
+// metodo get / post/ delete / update
+
+useEffect(() => {
+   api.get("item a receber o get").then (res => {
+   console.log(res.data))}
+ 
+ }, [])
+          
